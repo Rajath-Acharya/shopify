@@ -1,0 +1,21 @@
+.landing-button {
+  @include buttonSize;
+  background: hsl(7, 100%, 62%);
+  padding: 8px 20px;
+  border-radius: 30px;
+  opacity: 0.9;
+  &:hover {
+    opacity: 1;
+    background-color: rgba(43, 231, 106, 0.726);
+    transform: translateX(4px);
+  }
+}
+.christmas-button {
+  background: #ff7979;
+  padding: 8px 14px;
+  @include buttonSize;
+  &:hover {
+    background: #fd79a8;
+    transform: translateY(-3px);
+  }
+}

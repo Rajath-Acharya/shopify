@@ -1,0 +1,35 @@
+.category {
+  margin: 35px 0;
+}
+.category-column {
+  min-width: 250px;
+  margin-bottom: 25px;
+  flex-direction: row;
+  @include flexBox;
+  align-items: center;
+  img {
+    width: 300px;
+    object-fit: cover;
+    object-position: center center;
+    height: 280px;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+      rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+}
+.container-inside {
+  max-width: 1100px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.offer {
+  @include backgroundColor;
+  margin-top: 45px;
+  padding: 22px 0;
+}
+.landing .christmas {
+  font-family: "Merriweather", serif;
+  margin-left: 40px;
+  letter-spacing: 1.3px;
+}

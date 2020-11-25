@@ -1,0 +1,20 @@
+@mixin flexBox {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+}
+@mixin buttonSize {
+  font-size: 17px;
+  letter-spacing: 1.1px;
+  display: inline-block;
+  text-decoration: none;
+  margin: 30px 0;
+  color: #fff;
+  transition: all 0.45s;
+  font-family: $fontFamilySec;
+}
+@mixin backgroundColor {
+  background: $backgroundOld;
+  background: $backgroundSupport;
+  background: $backgroundMain;
+}

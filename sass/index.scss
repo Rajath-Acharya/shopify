@@ -1,0 +1,18 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Roboto:wght@400;500;700&display=swap");
+@import "_variables";
+@import "_navbar";
+@import "_common";
+@import "_products";
+@import "_show";
+@import "_footer";
+@import "_media";
+@import "_buttons";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  @include backgroundColor;
+}
